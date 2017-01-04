@@ -1,12 +1,4 @@
-<?php
-require('baglanti.php');
 
-if($_POST) {
-    if(isset($_POST['ad'])){
-        $ad=$_POST['ad'];
-    }
-}
-?>
 <!DOCTYPE html>
 <html lang="tr">
   <head>
@@ -47,7 +39,10 @@ if($_POST) {
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="#">Hoşgeldiniz sayın $ad</a>
+          <a class="navbar-brand" href="#">Hoşgeldiniz sayın <?php
+              session_start();
+              echo $_SESSION['ad'];
+              ?></a>
         </div>
         <div id="navbar" class="navbar-collapse collapse">
           <ul class="nav navbar-nav navbar-right">
@@ -55,7 +50,7 @@ if($_POST) {
             <li><a href="#">Ayarlar</a></li>
             <li><a href="#">Siz...</a></li>
             <li><a href="#">Yardım</a></li>
-            <li><a href="index.html">Çıkış</a></li>
+            <li><a href="cik.php.php">Çıkış</a></li>
           </ul>
           <form class="navbar-form navbar-right">
             <input type="text" class="form-control" placeholder="arama...">
