@@ -17,6 +17,8 @@ if($_POST) {
                 
                 header('Location: kendisayfam.php');
                 
+            }else{
+            echo "yanlış giriş";
             }
         
                 
