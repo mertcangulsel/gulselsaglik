@@ -17,9 +17,9 @@ if($_POST) {
                 
                 header('Location: kendisayfam.php');
                 
-            }else{
-            echo "yanlış giriş";
-            }
+            }else {header('Location: yanlisgiris.html');}
+            
+            
         
                 
             }
@@ -28,4 +28,5 @@ if($_POST) {
 else{
     echo "veriler Gelmedi";
 }
+
 ?>
