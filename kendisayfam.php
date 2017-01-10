@@ -107,16 +107,16 @@
             </div>
           </div>
 
-          <h2 class="sub-header">Section title</h2>
+          <h2 class="sub-header">İşlem başlıkları</h2>
           <div class="table-responsive">
             <table class="table table-striped">
               <thead>
                 <tr>
                   <th>#</th>
-                  <th>Header</th>
-                  <th>Header</th>
-                  <th>Header</th>
-                  <th>Header</th>
+                  <th>Başlık</th>
+                  <th>Başlık</th>
+                  <th>Başlık</th>
+                  <th>Başlık</th>
                 </tr>
               </thead>
               <tbody>
